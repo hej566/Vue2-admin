@@ -1,0 +1,36 @@
+$primary-bg: #ffffff;
+$primary: #057AFF;
+$default: #000000;
+$dark: #2F374B;
+$primary-hover: rgba($primary, 0.1);
+$dark-medium: #778199;
+
+@font-face {
+    font-family: "oppo-b";
+    font-display: auto;
+    src: url("../fonts/oppo/OPPOSans-B.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "oppo-h";
+    font-display: auto;
+    src: url("../fonts/oppo/OPPOSans-H.ttf") format("truetype");
+}
+  
+@font-face {
+    font-family: "oppo-l";
+    font-display: auto;
+    src: url("../fonts/oppo/OPPOSans-L.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "oppo-m";
+    font-display: auto;
+    src: url("../fonts/oppo/OPPOSans-M.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "oppo-r";
+    font-display: auto;
+    src: url("../fonts/oppo/OPPOSans-R.ttf") format("truetype");
+}

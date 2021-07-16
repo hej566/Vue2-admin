@@ -1,0 +1,135 @@
+product:
+  name: 中交智运定位系统
+
+u:
+  witch: 请选择
+  all: 全部
+
+c:
+  base:
+    id: ID
+    name: 名称
+    description: 描述
+    createdAt: 创建于
+    updatedAt: 更新于
+    deletedAt: 删除于
+    visitedAt: 最近访问于
+    create: 创建
+  alert:
+    label:
+  collecter:
+  dashboard:
+    newPosition: 查询最新位置
+  district:
+  enclosure:
+    event:
+    observer:
+  match:
+  organization:
+  subject:
+    simcard:
+    vehicle:
+  user:
+  simcard:
+    code: 智运卡
+    name: 持卡人
+    idNumber: 身份证
+    locationText: 地点描述
+    updatedAt: 更新于
+  vehicle:
+    plateCode: 车牌号
+    plateType: 车牌颜色
+    licenseCode: 运输证号
+    type: 车辆类型
+    mileage: 里程数
+    speed: 当前速度
+    locationText: 地点描述
+    location: 精确位置
+    longitude: 经度
+    latitude: 纬度
+    direction: 方向
+    updatedAt: 更新于
+
+e:
+  vehicle:
+    plateType:
+      blue: 蓝色
+      yellow: 黄色
+  entity:
+    type:
+      vehicle: 车辆
+      simcard: 智运卡
+  alert:
+    type:
+      speeding: 超速
+      fatigue: 疲劳
+      parking: 高速公路违规停车
+    level: 
+      notice: '初级'
+      warning: '中级'
+      danger: '严重'
+  enclosure:
+    event:
+      type:
+        in: 在内部
+        out: 在外部
+        enter: 进入
+        leave: 离开
+
+menu:
+  cardManagement: 
+    label: 智运卡管理
+    newPosition: 
+      label: 查询最新位置
+    trackPlayBack:
+      label: 查看轨迹回放
+  carManagement:
+    label: 车辆管理
+    newPosition: 
+      label: 查询最新位置
+    trackPlayBack:
+      label: 查看轨迹回放
+    carArea: 
+      label: 查看区域车辆
+  manCarMatch:
+    label: 人车匹配
+    queryResults:
+      label: 查询匹配结果
+    queryResultsTravel:
+      label: 查询轨迹
+    driverByVehicle:
+      label: 查看曾驶司机
+    VehicleByDriver:
+      label: 查看曾驶车辆
+  enclosureManagement:
+    label: 围栏管理
+    create: 
+      label: 创建围栏
+    detail:
+      label: 修改围栏
+    fenceMonitor:
+      label: 围栏监控
+    monitorHistory:
+      label: 历史监控
+  alarmManagement:
+    label: 告警管理
+    alarmThermodynamic:
+      label: 查看告警热力图
+    alarmInfo:
+      label: 查看告警信息
+    alarmCar:
+      label: 设置告警车辆
+  statisticalAnalysis:
+    label: 统计分析
+    carOnlineRate:
+      label: 查看车辆在线率
+    carAlarmCount:
+      label: 查看车辆告警次数
+    cardOnlineRate:
+      label: 查询智运卡在线率
+    enterpriseOperation:
+      label: 查看企业运营情况
+    positionData:
+      label: 统计定位数据量
+    useData:
+      label: 统计数据使用量
